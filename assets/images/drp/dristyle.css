@@ -1,0 +1,86 @@
+body {
+  font-family:Gotham SSm A, Gotham SSm B, Verdana, sans-serif;
+  padding: 10px;
+  background: white;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  font-decoration: underline;
+}
+
+hr {
+    display: block;
+    border-style:inset;
+    border-color:#b30000;
+    background-color:#b30000;
+    height: 2px;
+    border: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #b30000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration:none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #d00000;
+  color: white;
+}
+
+.header {
+  background-color: #d00000;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+ul {
+    list-style:none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #b30000;
+    font-weigth: bold;
+    display:inline-block;
+    width:1em;
+    margin-left:-1em;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border-style: solid;
+  border-color: #d00000; 
+}
+
+
+
+
+
+
+
+
+
+
+
+			
