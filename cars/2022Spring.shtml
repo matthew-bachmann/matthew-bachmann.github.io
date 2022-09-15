@@ -1,0 +1,211 @@
+
+
+<HTML>
+<style>
+#example1{
+    background-image: url(https://www.w3schools.com/cssref/img_flwr.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+#grad1 {
+    height: 2px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, violet, blue, cyan, green, yellow, orange, red); /* Standard syntax (must be last) */
+}
+</style>
+<div id="example1">
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Spring 2022</a>
+</div>
+
+
+<p>
+
+This semester, CARS was organized by Jake Kettinger and David Lieberman</p>
+
+<div class="tcard">
+  <h3>Shah Zamir</h3>
+  <h3><em>A Problem of Hilbert</em></h3>
+  April 27
+  <hr>
+ In 1900 David Hilbert published a list of 23 open problems. The 14th problem concerns the finite generation of the ring of invariants of a group acting on a finitely generated K-algebra. In 1959 Nagata provided a negative answer to Hilbert's 14th problem. In this talk, I intend to sketch a proof of this counter example. Our proof will follow a simplified version by R. Steinberg. I only assume basic knowledge of algebraic objects such as polynomial rings, algebraic varieties, and groups 
+</div>
+
+
+<div class="tcard">
+  <h3>Nawaj KC</h3>
+  <h3><em>Jacobian Criterion</em></h3>
+  April 20
+  <hr>
+ Oscar Zariski proved that a point in a variety is smooth if, and only if, its coordinate ring localized at the point is regular. This theorem yields the very well known Jacobian Criterion which can compute all the singular points of a variety. We will discuss these ideas in the talk. 
+</div>
+
+
+<div class="tcard">
+  <h3>Matthew Bachmann</h3>
+  <h3><em>&Ccaron;ech Cohomology from Another Perspective</em></h3>
+  April 13
+  <hr>
+ Last week Jordan introduced &Ccaron;ech cohomology for sheaves of topological spaces. In today’s talk we will translate the theory introduced last week into a more ring theoretic perspective. We will first discuss how we can associate a topological space to a commutative ring and then analyze what the &Ccaron;ech construction says about this topological space. A somewhat surprising and amazing fact is that the &Ccaron;ech cohomology applied to rings will recover certain local cohomology modules.
+ <br>
+ <br>
+ Of course, this is only cool if you think local cohomology is useful; so, the talk will conclude with a brief introduction to local cohomology and some of the initial applications of the theory. 
+</div>
+
+
+<div class="tcard">
+  <h3>Jordan Barrett</h3>
+  <h3><em>&Ccaron;ech Cohomology</em></h3>
+  April 6
+  <hr>
+ In this talk, I will give an introduction to Sheaf theory and the &Ccaron;ech Cohomology of topological spaces. Also I will do a sick af kick flip. 
+</div>
+
+
+<div class="tcard">
+  <h3>David Lieberman</h3>
+  <h3><em>Toric Rings: How to Turn a Cone Into a Coordinate Ring</em></h3>
+  March 16
+  <hr>
+  Toric rings and their varieties were first introduced in the 1970's, and are a rich source of interesting finitely generated algebras that are not boring polynomial-esque rings. In this talk, we will go through the construction of these objects that takes us from a polyhedral cone in affine space to the coordinate ring of some variety. No advanced algebra knowledge should be needed for this talk, but the audience will need to be well versed in being a good pal and not judging my ability to draw cones in <b>R</b><sup>3</sup>.
+</div>
+
+
+<div class="tcard">
+	<h3>Jake Kettinger</h3>
+	<h3><em>Unexpected Curves</em></h3>
+	March 23
+	<hr>
+  Boo! I'm sorry, I didn't mean to be so... <em>unexpected</em>. Anyway. I'm going to talk about unexpected curves in algebraic geometry. But what does it mean for a curve to be unexpected? Where can we find unexpected curves and what are the different ways we can construct them? All these will be answered! And then we will talk about unexpectedness in higher characteristics and dimensions, and how they relate to other geometric constructions such as quasi-elliptic fibrations and geproci sets.
+  
+  <br>
+
+  <center>
+  	<iframe src="https://www.desmos.com/calculator/r7pcx6a3lb?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+  </center>
+
+  <br>
+
+  Above is a demonstration of the unique (up to isomorphism) unexpected quartic in characteristic 0. Points 1, 2, 3, 4, and 10 are click-and-draggable, and point 10 will always be a triple point no matter where you drag it! (Although it may not always appear that way because non-real slopes don't render in Desmos.) You can read about its construction and uniqueness in the 2019 paper by Farnik, Galuppi, Sodomaco, and Trok.
+
+</div>
+
+<div class="tcard">
+	<h3>&#8709;</h3>
+	<h3><em>Spring Break &#128144; &#127803; &#127804; &#127799;</em></h3>
+	March 16
+	<hr>
+  A time of rest! A time of joy! A time of best! A time of rhyme! This week we all take a nice break from all this commotion that surrounds us. We will return next week! 
+</div>
+
+<div class="tcard">
+	<h3>Julie Geraci and Dakota White</h3>
+	<h3><em>Gr&#246;bner Bases: The Sequel</em></h3>
+	March 9
+	<hr>
+  This week we till show applications of Gr&#246;bner Bases through <span style="font-family:courier;">Macaulay2</span> and Graph Colorings!
+</div>
+
+<div class="tcard">
+	<h3>Julie Geraci and Dakota White</h3>
+	<h3><em>Gr&#246;bner Bases: Who is she?</em></h3>
+	March 2
+	<hr>
+  Gr&#246;bner bases are powerful and magical objects in commutative algebra. They help us answer questions like the ideal membership problem or the parametrization problem.  They even work their little magic in programs like <span style="font-family:courier;">Macaulay2</span>, where you may ask an innocent question like "I=J?" Could you believe that all of this comes from an abstraction of the division algorithm? 
+
+  <br>
+  <br>
+
+  In this two-part series, we will dive into the world of Gr&#246;bner bases. In this week's talk, we will motivate and define Gr&#246;bner bases as well as give some neat facts and algorithms about Gr&#246;bner bases that one may not learn in your typical commutative algebra course. 
+
+  <br>
+  <br>
+
+  Next time, we will show the power of Gr&#246;bner bases in <span style="font-family:courier;">M2</span> and applications to other areas of mathematics.
+</div>
+
+<div class="tcard">
+	<h3>Open Discussion</h3>
+	<h3><em>Community Day!</em></h3>
+	February 23
+	<hr>
+  Today in CARS we will use the time to check in with each other as an algebra community instead of having the usual talk. We want to open back up the discussion about our group culture, and hear how everyone is feeling as a member of the algebra group.
+
+  <br>
+  <br>
+
+  We hope to continue working on creating an inclusive space for all graduate students, and everyone's input is greatly appreciated.
+</div>
+
+<div class="tcard">
+	<h3>David Lieberman</h3>
+	<h3><em>D-modules and Bernstein's Inequality or: How I Learned to Stop Worrying and Love the Lower Bound on the Dimension of a D-Module</em></h3>
+	February 16
+	<hr>
+  As algebraists, we are (almost exclusively) concerned with the study of modules. We often ask questions about modules along the lines of "Is this module big? How big is it? Can we wrangle this thing in a nice way or is it too big to bend it into submission with our will power alone?" Answers to this question can involve looking at dimension, generating sets, and length, then determining how "bad" it can get.
+
+  <br>
+
+  <br>
+
+  There is another question we can ask though: given a ring R how small can an R-module be? Is there a lower bound on the dimension of an R-module? What even is the dimension of an R-module? In this talk we will answer these questions when the ring in question is the ring of differential operators over a polynomial ring. The only prior knowledge I will assume is 818 algebra, partial derivatives, and the product rule. Proper hydration and general curiosity are also encouraged, but not necessary. If time permits, we may also introduce the notion of holonomic modules.
+</div>
+
+
+<div class="tcard">
+	<h3>Zach Nason</h3>
+	<h3><em>A Counterexample Concerning the Existence of Height One Prime Ideals in the Intersection of Height Two Prime Ideals</em></h3>
+	February 9
+	<hr>
+  In the early 1970s, Irving Kaplansky conjectured that in a Noetherian domain, the intersection of any two height two prime ideals must contain a height one prime ideal. Although this conjecture is true in many Noetherian domains, it is false in general, as demonstrated by Stephen McAdam in 1974. In my talk today, I will construct this counterexample, and will build up several important results necessary for this construction. In addition, I will prove that this conjecture is true in R[x], where R is a Noetherian domain.
+</div>
+
+
+<div class="tcard">
+	<h3>Nawaj KC</h3>
+	<h3><em>Serre's Intersection Formula</em></h3>
+	February 2
+	<hr>
+  Given subvarieties X and Y in an affine n-space which meet only at the origin, we want to define their intersection multiplicity, a rather innocent and natural definition to desire. Over the plane, it suffices to simply define it as the length of R<sub>m</sub>/(I, J) where I, J are the defining ideals of these varieties and R<sub>m</sub> is the polynomial ring localized at the origin. However, in higher dimensions, we see clear evidence that this formula is simply inadequate and that it is just not precise enough. In today's talk, we present Serre's fix to this. Some basics of commutative algebra at the 901/902 level will be assumed.
+</div>
+
+
+<div class="tcard">
+	<h3>Andrew Soto</h3>
+	<h3><em>A Rigidity Theorem for Ext</em></h3>
+	January 26
+	<hr>
+  The goal of this talk is to present the following theorem: if R is an unramified hypersurface, if M and N are finitely generated R modules, and if Ext<sub>R</sub><sup>n</sup>(M, N) = 0 for some n &leq; grade M, then Ext<sub>R</sub><sup>n</sup>(M, N) = 0 for i &leq; n. A corollary of this says that Ext<sub>R</sub><sup>i</sup>(M, M) &ne; 0 for i &leq; grade M. This gives a partial answer to a question of Jorgensen: if (R, m, k) is a complete intersection and if M is a nonzero finitely generated module of finite projective dimension, then must Ext<sub>R</sub><sup>n</sup>(M, M) be nonzero for 0 &leq; n &leq; pd<sub>R</sub>(M)?
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="grad1">
+</div>

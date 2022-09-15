@@ -1,0 +1,134 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Fall 2020</a>
+</div>
+
+<p>
+
+This semester, CARS was organized by Matthew Bachmann and Michael DeBellevue</p>
+
+
+<div class="tcard">
+	<h3>Jake Kettinger</h3>
+	<h3><em>The Internal Language of Toposes</em></h3>
+	November 4
+	<hr>
+	We will discuss the definitions of a topos and a Heyting algebra. We will look at some examples if toposes, such as the category of sheaves. We will then apply the Heyting algebra to generalize the concept of logical formulas in order to develop a new formal logic for the topos. We will then see how this new logic can affect how we can write proofs regarding sheaves.
+
+</div>
+<div class="tcard">
+	<h3>Allison Ganger</h3>
+	<h3><em> Some Algebraic Geometry Background to Understand Blechschmidt's Using the Internal Language of Toposes in Algebraic Geometry</em></h3>
+	October 28
+	<hr>
+This is the first of a two-part talk inspired by Blechschmidt's paper <em>Using the Internal Language of Toposes in Algebraic Geometry</em>.  But, as the title suggests, the talk will be focused on the algebraic geometry necessary to understand why you should care about it.  So be prepared to learn about sheaves, ringed spaces, morphisms, and more!
+</div>
+
+
+<div class="tcard">
+	<h3>Frank Zimmitti</h3>
+	<h3><em>Rational Singularities in Commutative Algebra</em></h3>
+	October 21
+	<hr>
+  Rational singularities form an important class of <q>mild</q> singularities in both commutative algebra and algebraic geometry. In particular, they are both normal and Cohen-Macaulay. Although they have been heavily studied since the 1930s, there is still no purely algebraic characterization for a local ring to have rational singularities. We will discuss a few characterizations of rational singularities and their positive characteristic analogs, <em>F</em>-rational rings. Time permitting, we will discuss a recent conjectured characterization for rational singularities in terms of big Cohen-Macaulay algebras.
+</div>
+<div class="tcard">
+	<h3>David Liebermann</h3>
+	<h3><em>Local Cohomology Go Vroooooom! </em></h3>
+	October 14
+	<hr>
+  We will consider the tool of Local Cohomology. After giving some historical context and background information, we will define local cohomology. Cohomology is like homology but backwards, and local cohomology considers what cohomology we get after we apply the I-torsion functor for some ideal I. We will discuss some examples, theorems, and properties of local cohomology, and identify some applications of the subject.
+</div>
+
+
+<div class="tcard">
+	<h3>Erica Hopkins</h3>
+	<h3><em>Macaulay2 Workshop</em></h3>
+	October 7
+	<hr>
+  In this workshop, we are going to be working together to better understand Macaulay2. This is going to be active learning focused, so I have put together a worksheet that is designed to help guide you through learning the basics of Macaulay2. You are welcome to work through this worksheet at your own pace, and you are encouraged to investigate Macaulay2 in whatever way you think would be helpful for you. Prior knowledge of Macaulay2 or programming in general is not required to get something out of this workshop.
+</div>
+
+<div class="tcard">
+	<h3>Taran Funk</h3>
+	<h3><em>Global Bound on Multiplicity for Non-Local Rings</em></h3>
+	September 30
+	<hr>
+	<p>We will discuss the basic definition of the multiplicity of a local ring, and how we can extend this definition to non-local rings. There is a result by Chevalley in "Intersections of Algebraic and Algebroid Varieties" which shows how one can use the minimal primes of a local ring to bound the multiplicity. Our hope is that, under a few extra restrictions we can get a global bound on the multiplicity of a non-local ring using Chevalley's result - often referred to as the associativity formula.</p>
+
+	<p><em>
+		I'm sittin' in the railway station<br>
+		Got a ticket to my destination<br>
+		On a tour of one-night stands<br>
+		My suitcase and guitar in hand<br>
+		And every stop is neatly planned<br>
+		For a poet and a one-man band<br>
+		<br>
+		Global bound<br>
+		I wish I was<br>
+		Global bound<br>
+		Global where my thought's escapin'<br>
+		Global where my music's playin'<br>
+		Global where my love lies waitin'<br>
+		Silently for me<br>
+	</em></p>
+
+	<img src="GlobalBound.jpg" alt="Global Bound">
+</div>
+
+<div class="tcard">
+	<h3>Michael DeBellevue</h3>
+	<h3><em>Graded Resolutions of Graded Modules</em></h3>
+	September 23
+	<hr>
+	A free resolution of a module is a way of encoding the relations among a generating set of the module as matrices. When an algebra over a field also carries the structure of a graded ring, we are able to construct a special free resolution called a minimal free resolution.  This resolution canonically embeds into any other resolution of a module, and therefore identifies a canonical set of relations of a minimal generating set of the module.
+</div>
+
+<div class="tcard">
+	<h3>Andrew Soto Levins</h3>
+	<h3><em>Valuation Rings</em></h3>
+	September 16
+	<hr>
+	Valuation theory is used in number theory and has been important since Hensel came up with his theory of the p adic numbers. In number theory multiplicative valuations are the main objects that are studied. These generalize the idea of the absolute value of a number. On the other hand, Krull studied valuation rings from a ring theory point of view and his theory was applied to algebraic geometry by Zariski. In this talk, I give the definition of valuation ring and some properties of and interesting results about these rings. I think that they are cool.
+</div>
+
+<div class="tcard">
+	<h3>Matthew Bachmann</h3>
+	<h3><em>Geometric Intuition for Certain Classes of Rings</em></h3>
+	September 9
+	<hr>
+	 In this talk I will attempt to give some geometric intuition for common types of rings that arise in commutative algebra: regular local, Cohen-Macaulay, complete intersections, and Gorenstein. The main goal is intuition; as a result, the definitions given are from my point of view and not completely formal. These types of rings come up very often in commutative algebra (today's CAS talk is even about Gorenstein rings). We will look at prototypical examples of such rings alongside a geometric picture. While learning about this topic, I thought to myself, "Why are these rings not always presented in this way?"; if we have time, I will try to provide an answer to that question.
+</div>
+
+<div class="tcard">
+	<h3>Michael DeBellevue</h3>
+	<h3><em>Graded Rings and Modules</em></h3>
+	September 2
+	<hr>
+	Graded free resolutions are a tool that can be used to describe the relations between generators of ideals in graded rings.  In this talk I will introduce graded rings and ideals and graded free resolutions.  I will prove the graded version of Nakayama's lemma and discuss how it is used to form the minimal graded free resolution of a graded ideal.  Minimality of a resolution is an important property that allows one to unambiguously identify the relations of the minimal set of generators of an ideal, and so this construction allows for well-defined numerical invariants to be associated to ideals that allow us to classify them.
+</div>
+

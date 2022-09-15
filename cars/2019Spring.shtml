@@ -1,0 +1,164 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Spring 2019</a>
+</div>
+
+<p>
+
+This semester, CARS was organized by Andrew Connor and Amadeus Martin 
+</p>
+
+
+<div class="tcard">
+	<h3>Matthew Bachmann</h3>
+	<h3><em>Yoneda Extensions Part 2: Applications</em></h3>
+	April 24
+	<hr>
+	Today's talk will be about Auslander's celebrated theorem: If <em>R</em> is a complete CM ring and has finite CM type, then <em>R</em> has an isolated singularity. A key part of Auslander's proof is to show Ext<sup>1</sup>(<em>M,N</em>) has finite length for arbitrary MCM modules. Huneke and Leuschke proved that Ext<sup>1</sup>(<em>M,N</em>)  has finite length under weaker assumptions using ideas from the correspondence we looked at in Part 1. Our goal for today will be to understand the proof from Huneke and Leushke and see how it can be used to generalize Aulander's result.
+
+
+
+</div>
+<div class="tcard">
+  <h3>Nicholas Packauskas</h3>
+  <h3><em> PERFECTOIDBOIS III: THE FINAL CHAPTER</em></h3>
+ April 17
+  <hr>
+We close our (limited) expedition into perfectoid notions by describing how the techniques have influenced commutative algebra.  In particular, we will give a road map to how the direct summand conjecture was finally proved in the remaining case of mixed characteristic by Yves Andr&eacute;  in 2016.
+
+</div>
+
+<div class="tcard">
+  <h3>Frank Zimmitti</h3>
+  <h3><em> Perfectoid Fields</em></h3>
+ April 10
+  <hr>
+We introduce some basic notions in nonarchimedean analysis in order to define a perfectoid field, a basic object in Peter Scholze's theory of perfectoid spaces. After giving a few examples, we will describe the "tilting" functor, which to any perfectoid field, $K$, associates a perfectoid field,<em> K<sup>#</sup></em>, of characteristic <em>p>0</em>.  Time permitting, we will discuss some basic ideas from John Tate's theory of rigid analytic geometry, which are necessary to discuss perfectoid <em>K</em>-algebras and higher dimensional perfectoid spaces.
+</div>
+
+<div class="tcard">
+  <h3>Michael DeBellevue</h3>
+  <h3><em> Perfectoids I: Tasting the Ingredients</em></h3>
+ April 3
+<hr>
+We begin the first of three talks on perfectoids and their role in proving the direct summand conjecture in mixed characteristic.  In this talk I will begin with some remarks on the differences between mixed and equicharacteristic.   I will then give a broad overview of the three major ingredients involved: Field theory, topology, and "almost mathematics".  More specifically, I will prove the direct summand conjecture in equicharacteristic zero, introduce &eacute;tale morphisms, and the category of almost modules over a non-noetherian ring.
+</div>
+
+<div class="tcard">
+  <h3>Matthew Bachmann</h3>
+  <h3><em> Yoneda Extensions</em></h3>
+ March 27
+  <hr>
+        Elements of Ext<sup>1</sup>(<em>A,B</em>) can be viewed as extensions of <em>B</em> by <em>A</em> in a rather mysterious way. In my talk, we will unpack this correspondence (following Rotman). Time permitting, we will look at how the correspondence gives <em>{equivalence classes of extensions}</em> a group structure that makes it isomorphic to Ext<sup>1</sup>(<em>A,B</em>).
+</div>
+
+<div class="tcard">
+  <h3>Su Ji Hong</h3>
+  <h3><em> An example of Kac-Moody algebra and root system</em></h3>
+ March 13
+  <hr>
+        I am reading through a book about Kac-Moody algebra. I will give basic definitions to define Kac-Moody algebra and show an example to make sense of the definitions. I am still confused about lots of parts so this will be an adventure for all of us. 
+</div>
+
+<div class="tcard">
+  <h3>Taran Funk</h3>
+  <h3><em> Detecting Flatness in Characteristic p>0</em></h3>
+ March 6
+  <hr>
+        We will be discussing how use a ring, viewed as module over itself via the Frobenius map, to test for flatness of a (not necessarily finitely generated) module. This is some recent work by myself and Tom Marley.
+</div>
+
+<div class="tcard">
+  <h3>Eric Hopkins</h3>
+  <h3><em> Complete Intersections </em></h3>
+ February 27
+  <hr>
+        Complete Intersections are a class of Cohen-Macaulay local rings with a definition that looks bizarre. I will present this bizarre definition, then characterize them using properties of the ring and Koszul complexes. I will remind you of the relevant information from my previous talk on Koszul complexes.
+</div>
+
+<div class="tcard">
+  <h3></h3>
+  <h3><em></em></h3>
+ February 20
+  <hr>
+</div>
+
+<div class="tcard">
+  <h3>Erica Musgrave</h3>
+  <h3><em> Graded Koszul Rings</em></h3>
+ February 13
+  <hr>
+        Let <em>S</em> be a polynomial ring over <em>k</em> and <em>R = S/I</em> for some graded ideal <em>I</em>. It is well known that the projective dimension of <em>k</em> over <em>S</em> is finite. In addition, the minimal free resolution of <em>k</em> over <em>R</em> is linear. One could ask are there any other rings <em>R</em> that the minimal free resolution of <em>k</em> has these nice properties? If <em>R</em> is not a polynomial ring then <em>k</em> always has infinite projective dimension. However, it is possible for the minimal free resolution of <em>k</em> to be linear and such rings are called graded Koszul rings. In this talk, I will go over the definition of Koszul rings along with some examples and results about Koszul rings.
+</div>
+
+
+<div class="tcard">
+  <h3>Andrew Connor</h3>
+  <h3><em> Asymptotic Resurgence via Integral Closure</em></h3>
+ February 6
+  <hr>
+        In 2009, our very own Brian Harbourne introduced an invariant of symbolic powers called the resurgence. Like most such invariants, it's extremely hard to compute in general. This talks relates some recent results from DiPasquale, Francisco, Mermin, and Schweig (arXiv: 1808.01547) that establish how to feasibly compute the asymptotic version of resurgence. In light of the computational nature, I'll be skipping all the proofs and getting right to the calculations.
+</div>
+
+<div class="tcard">
+  <h3>Josh Pollitz</h3>
+  <h3><em> Homotopical Commutative Algebra</em></h3>
+ January 30
+  <hr>
+    Historically, the representation theory of a commutative noetherian ring is the
+study of its category of finitely generated modules, indecomposable modules, MCM modules, etc. Gaining structural insight on these categories, in general, can prove to be
+a challenging/impossible endeavor. More recently, inspiration from homotopy theory has
+led some commutative algebraists to study, loosely speaking, "homotopical
+representation theory". In this talk, I will cover the fundamental result in this direction,
+namely, the following theorem of Hopkins and Neeman: "There is a lattice isomorphism 
+between the specialization closed subsets of <em>Spec(R)</em> and the thick subcategories of
+perfect complexes."
+</div>
+
+<div class="tcard">
+  <h3>Amadeus Martin</h3>
+  <h3><em>Buchweitz Theorem - La Segunda Parte</em></h3>
+ January 23
+  <hr>
+        Today we finish proving a theorem of Buchweitz, establishing an equivalence
+of the stable MCM module category and the singularity category over a Gorenstein ring.
+Last week we showed that <em>MCM(S)</em> stable is equivalent to the category of unbounded
+acyclic complexes of projectives. We will utilize this result to create the necessary
+functors to settle the claim of the theorem.
+</div>
+
+<div class="tcard">
+  <h3>Amadeus Martin</h3>
+  <h3><em> Buchweitz Theorem - Part I</em></h3>
+ January 16
+  <hr>
+        We will be proving a theorem of Buchweitz, establishing an equivalence of
+the stable MCM module category and the singularity category over a Gorenstein ring.
+This will be done in two parts. This week we introduce a third category of unbounded
+acyclic complexes of projectives, and show its equivalence to MCM stable.
+</div>
+

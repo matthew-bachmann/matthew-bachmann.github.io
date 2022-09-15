@@ -1,0 +1,122 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Fall 2016</a>
+</div>
+
+<p>This semester, CARS was organized by Nick Packauskas and Andrew Windle.</p>
+
+<div class="tcard">
+  <h3>Matthew Mills</h3>
+  <h3><em>Upper Cluster Algebras and Double Bruhat Cells</em></h3>
+ November 15
+  <hr>
+We will define upper cluster algebras and show the coordinate ring of a Double Bruhat cell has the structure of a upper cluster algebra.
+</div>
+
+<div class="tcard">
+  <h3>Matthew Mills</h3>
+  <h3><em>Double Bruhat Cells of the General Linear Group</em></h3>
+ November 8
+  <hr>
+The general linear group of degree <em>n</em>, <em>GL<sub>n</em></sub>(&#x2102;) is the set of all <em>n</em>&#x00D7;<em>n</em> invertible matrices over the complex numbers. In this talk we introduce the double Bruhat decomposition of the general linear group and use this decomposition to give a method of factoring square matrices into the smallest possible number of elementary Jacobi matrices. We will briefly discuss the geometry of these sets as it will be relevant to <em>t</em>.
+</div>
+
+<div class="tcard">
+  <h3>Seth Lindokken</h3>
+  <h3><em>Minimal Free Resolutions over Complete Intersections - Pat II</em></h3>
+ November 1
+  <hr>
+ In the previous talk, we described the asymptotic behavior of minimal free resolutions over rings of the form <em>R = Q/(f)</em> where <em>Q</em> is a regular local ring and <em>f</em> is a <em>Q</em>-regular element in the square of the maximal ideal (<em>R</em> is called a hypersurface ring, or a complete intersection of codimension one). In this talk we will build off of these results and give an analogous structure theorem for minimal free resolutions over complete intersections of arbitrary codimension.
+</div>
+
+<div class="tcard">
+  <h3>Seth Lindokken</h3>
+  <h3><em>Minimal Free Resolutions over Complete Intersections - Part I</em></h3>
+ October 25
+  <hr>
+To study the module theory of a Noetherian local ring, one fruitful approach is to study minimal free resolutions of various modules. For a general ring, this is a daunting task. However, over certain classes of rings we are able to say a lot about what these gadgets look like. In this talk we will study free resolutions over hypersurface rings. Using results from Shamash and Eisenbud, we will be able to give a structure theorem of sorts for the "eventual structure" of free resolutions over these rings.
+</div>
+
+<div class="tcard">
+  <h3>Ben Drabkin</h3>
+  <h3><em>An Introduction to Algebraic Sets and Hypersurfaces</em></h3>
+ October 11
+  <hr>
+An algebraic set is the set of points in <em>n</em>-dimensional space on which a collection of polynomials vanish. A hypersurface is a special type of algebraic set which is defined by a single polynomial. In the 1880's and 1890's Kronecker proved that every algebraic set in <em>n</em>-dimensional space is the intersection of finitely many hypersurfaces, and that the number of hypersurfaces in this intersection is bounded above by <em>n+1</em>. In 1971, Eisenbud and Evans proved that this upper bound could be reduced to <em>n</em>. This talk will attempt provide a gentle introduction to the algebraic geometry involved, and to then shed light on Eisenbud and Evan's proof.
+</div>
+
+<div class="tcard">
+  <h3>Andrew Windle</h3>
+  <h3><em>Differential Graded Structures and Twisting Cochains - Part II</em></h3>
+ October 4
+  <hr>
+Continuing from last week, we will provide a differential graded algebra structure on the Hom complex between a differential graded coalgebra <em>C</em> and a differential graded algebra <em>A</em>. Using these structures, we will discuss twisting cochains, maps that allow you to "twist" the differential on familiar complexes to turn them into new ones. In particular, using acyclic twisting cochains we will be able to compute the Hochschild cohomology of a DG algebra <em>A</em> and make connections between the module and comodule theories of <em>A</em> and <em>C</em>.
+</div>
+
+<div class="tcard">
+  <h3>Andrew Windle</h3>
+  <h3><em>Differential Graded Structures and Twisting Cochains - Part I</em></h3>
+ September 27
+  <hr>
+In commutative algebra, loosely speaking, a differential graded algebra (DGA) can be thought of as a chain complex with an algebra structure such that the chain complex and algebra structures are compatible. In this talk, we will discuss what it means to be a differential graded algebra, provide examples, and also discuss the somewhat lesser mentioned differential graded coalgebra. Using these two structures, we will provide a differential graded algebra structure on the Hom complex between a differential graded coalgebra <em>C</em> and a differential graded algebra <em>A</em>. Using these structures, we will begin discussing twisting cochains, maps that allow you to "twist" the differential on familiar complexes to turn them into new ones.
+</div>
+
+<div class="tcard">
+  <h3>Chris Evans</h3>
+  <h3><em>Elliptic Curves, Fancy Cryptography, and Such - Part II </em></h3>
+ September 20
+  <hr>
+Continuing our discussion of elliptic curves from last week, we will have a brief tour of some basic facts about elliptic curves over finite fields. We will then meet the main characters of the talk: Alice, Bob, and Eve. Alice and Bob like talking to each other, but they don't want Eve to know anything about what they are talking about for reasons that will remain unexplained. Alice, Bob and Eve are all pretty good at math, but Alice and Bob were at our talk last week, so they know some cool facts about elliptic curves that Eve isn't aware of. So we're going to help Alice and Bob hide their conversation from Eve. Eve will surprise us on at least a few occasions, so we'll have to get inventive.
+</div>
+
+<div class="tcard">
+  <h3>Chris Evans</h3>
+  <h3><em>Elliptic Curves, Fancy Cryptography, and Such - Part I </em></h3>
+ September 13
+  <hr>
+Elliptic curves are all the rage in cryptography, which might be more interesting if you cared about cryptography and knew what elliptic curves are. I probably can't help with the first, but this week I'll try and give you some idea what an elliptic curve is, and more importantly we'll define a group structure on the points of an elliptic curve along with some basic facts about that group structure. The prerequisites are utterly minimal, and commutative algebra only appears in the vaguest fashion. Time permitting we'll briefly discuss some basics of cryptography, but we'll leave all the elliptic curve cryptography until next week.
+</div>
+
+<div class="tcard">
+  <h3>Josh Pollitz</h3>
+  <h3><em>The Hom Complex and Constructing Ext</em></h3>
+ September 6
+  <hr>
+The goal of today's talk is to introduce some useful ideas from homological algebra in an accessible way. Specifically, we will define the Hom complex for a pair of complexes and use it to construct Ext modules. Time permitting, I'd like to discuss how one can equip Ext<sub>R</sub>(<em>M,N</em>) with the structure of an Ext<sub>R</sub>(<em>N,N</em>)-Ext<sub>R</sub>(<em>M,M</em>) bimodule. This talk is aimed at an audience with a basic knowledge of module theory.
+</div>
+
+<div class="tcard">
+  <h3>Nick Packauskas</h3>
+  <h3><em>An Introduction to Free Resolutions</em></h3>
+ August 30
+  <hr>
+        Free Resolutions are an incredibly important object of study in commutative and homological algebra with a rich history dating back to Hilbert and beyond. In this talk, which will be aimed at an audience with only basic knowledge of ring and module theory and no previous background in free resolutions, we will define the object of study, see several examples, and state some theoretically and historically important theorems in commutative algebra.
+</div>
+
+
+
+

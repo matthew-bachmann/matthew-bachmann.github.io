@@ -1,0 +1,118 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Fall 2014</a>
+</div>
+
+<div class="tcard">
+  <h3>Brittney Falahola</h3>
+  <h3><em>Examples of Gorenstein Rings</em></h3>
+ December 9
+  <hr>
+The standard definition of a Gorenstein local ring involving injective dimension, while simple, does not give one great insight into how to come up with examples of such rings. Thus, the desire for an equivalent characterization of Gorenstein rings that leads to examples manifests itself. In this talk, I will give two such characterizations: one which is true for noetherian local rings, and another pertaining to numerical semigroup rings. As the title of the talk suggests, we will use these characterizations to discuss several examples (and non-examples) of Gorenstein rings.
+</div>
+
+<div class="tcard">
+  <h3>Jason Lutz</h3>
+  <h3><em>Hochschild Homology for Complete Intersections - Part II</em></h3>
+ November 11
+  <hr>
+In Part I, we defined Hochschild homology and used it to prove a theorem about regular homomorphisms. Today, in Part II, we'll construct two complexes that compute Hochschild homology. We'll use one construction to show that vanishing of Hochschild homology in two degrees of opposite parity implies smoothness.
+</div>
+
+<div class="tcard">
+  <h3>Jason Lutz</h3>
+  <h3><em>Hochschild Homology for Complete Intersections - Part I</em></h3>
+ November 4
+  <hr>
+We'll discuss Hochschild homology and its applications to detecting regular homomorphisms of Noetherian rings, and give two constructions of complexes that compute Hochschild homology for complete intersections. Then, we'll apply these constructions to note a connection between smoothness and the vanishing of Hochschild homology.
+</div>
+
+<div class="tcard">
+  <h3>John Meyers</h3>
+  <h3><em>Gulliksen's Characterization of Local Complete Intersections</em></h3>
+ October 28
+  <hr>
+In 1980, Gulliksen gave the following extension of the Auslander-Buchsbaum-Serre Theorem: Local complete intersections are exactly the (noetherian local) rings over which all finitely generated modules have finite complexity, or equivalenty, they are the rings for which the residue field has finite complexity. Just as one uses the Auslander-Buchsbaum-Serre Theorem to prove regularity localizes, an immediate corollary of Gulliksen's result is that the complete intersection property localizes -- a fact originally proved by Avramov in 1975 using different techniques. The proof of Gulliksen's result exploits a characterization of local complete intersections as those rings for which certain invariants of the ring (called deviations) vanish. This talk will have three parts: (1) We shall quickly review the main cast of characters, including DG algebras, Tate's method of killing cycles, and acyclic closures. (2) We will then define deviations and survey the characterization of complete intersections in terms of them. (3) We will end the talk with a complete proof of Gulliksen's result, and then show the complete intersection property localizes.
+</div>
+
+<div class="tcard">
+  <h3>Luigi Ferraro</h3>
+  <h3><em>Local Cohomology as a D-module - Part II</em></h3>
+ October 14
+  <hr>
+We are going to study the theory of modules over the Weyl algebra. We are going to use this theory to prove that if <em>R</em> is a polynomial ring of characteristic zero then the set of associated primes of local cohomology modules Ass<sub><em>R</em></sub> H<sup>i</sup><sub>a</sub>(<em>R</em>) is always finite for every <em>i</em> and every ideal <em>a</em>.
+</div>
+
+<div class="tcard">
+  <h3>Luigi Ferraro</h3>
+  <h3><em>Local Cohomology as a D-module - Part I</em></h3>
+ October 7
+  <hr>
+We are going to study the theory of modules over the Weyl algebra. We are going to use this theory to prove that if <em>R</em> is a polynomial ring of characteristic zero then the set of associated primes of local cohomology modules Ass<sub><em>R</em></sub> H<sup>i</sup><sub>a</sub>(<em>R</em>) is always finite for every <em>i</em> and every ideal <em>a</em>.
+</div>
+
+<div class="tcard">
+  <h3>Marcus Webb</h3>
+  <h3><em>On a Conjecture of Serre - Part II</em></h3>
+ September 30
+  <hr>
+We'll be looking at some basics of intersection theory and discussing Serre's multiplicity conjectures. I'll start off by computing some examples and special cases, and, time permitting, give a proof in the graded case.
+</div>
+
+<div class="tcard">
+  <h3>Marcus Webb</h3>
+  <h3><em>On a Conjecture of Serre - Part I</em></h3>
+ September 23
+  <hr>
+We'll be looking at some basics of intersection theory and discussing Serre's multiplicity conjectures. I'll start off by computing some examples and special cases, and, time permitting, give a proof in the graded case.
+</div>
+
+<div class="tcard">
+  <h3>Doug Dailey</h3>
+  <h3><em>Ramblin' about Artinian Modules and Cofinite Modules (and more?)</em></h3>
+ September 16
+  <hr>
+I will prove a nice characterization of Artinian modules over Noetherian local rings as Tom mentioned in class. My motivation for proving this result comes from a few of Tom's papers where this characterization is the first statement in the paper. I will also discuss the result of one of Tom's papers which involves cofinite modules. As time permits, and if I have not rambled myself out the door or my audience to sleep, I may shift gears entirely and talk about a neat application of the Cohen Structure Theorem in local cohomology. All of the elements of this talk should be accessible to those taking Tom's course, and it will be most interesting for beginners in the area.
+</div>
+
+<div class="tcard">
+  <h3>Eric Canton</h3>
+  <h3><em> Test Ideals - Part II</em></h3>
+ September 9
+  <hr>
+Test ideals first arose in the theory of tight closure. In the last twenty years, they have assumed a prominent role in characteristic <em>p</em> commutative algebra due to their link with tight closure, and in algebraic geometry through analogy with multiplier ideals, some of the most interesting and useful objects in complex algebraic geometry. In this talk, we will define and explore test ideals as algebraic geometers use them, though we stay with the language of commutative algebra.
+</div>
+
+<div class="tcard">
+  <h3>Eric Canton</h3>
+  <h3><em> Test Ideals - Part I</em></h3>
+ September 2
+  <hr>
+Test ideals first arose in the theory of tight closure. In the last twenty years, they have assumed a prominent role in characteristic <em>p</em> commutative algebra due to their link with tight closure, and in algebraic geometry through analogy with multiplier ideals, some of the most interesting and useful objects in complex algebraic geometry. In this talk, we will define and explore test ideals as algebraic geometers use them, though we stay with the language of commutative algebra.
+</div>
+
+

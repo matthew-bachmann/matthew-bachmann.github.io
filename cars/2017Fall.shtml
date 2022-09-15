@@ -1,0 +1,139 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Fall 2017</a>
+</div>
+
+<p>
+
+This semester, CARS was organized by Nick Packauskas and Josh Pollitz</p>
+
+<div class="tcard">
+	<h3>Alessandro De Stefani</h3>
+	<h3><em>Measuring Singularities with (and without) Frobenius</em></h3>
+	November 29
+	<hr>
+	The aim of this talk is to give an introduction to some numerical invariants that can be attached to a polynomial in order to measure ''how severe'' its singularities are. Depending on whether the characteristic of the base field is zero or prime, different techniques can be applied, leading to (seemingly) unrelated invariants. Time permitting, we will sketch connections between these two sides of the picture. The talk is based on a survey article on this topic written by Benito, Faber and Smith (arXiv: https://arxiv.org/abs/1309.4814). 
+</div>
+
+<div class="tcard">
+	<h3>Su Ji Hong</h3>
+	<h3><em> Little Bit of Eveyrthing: Su Ji's Oral Comp</em></h3>
+	November 15
+	<hr>
+	This is a practice talk for my oral comprehensive exam. Thus this will be partitioned into several sections. I will first introduce basic definitions and define cluster algebra. Then I will show some applications to totally positive Grassmannian and Markov triple. Also I will talk about creating new quiver from any known quiver.
+</div>
+
+<div class="tcard">
+	<h3>Josh Pollitz</h3>
+	<h3><em> The Dimension Inequality and the Theta Pairing</em></h3>
+	November 8
+	<hr>
+	Today, we will pick up where Amadeus left off last week. Specifically, we will revisit the Theta pairing for hypersurfaces with the main goal of showing that it detects whether the dimension inequality holds. To do this, we will introduce Serre's intersection multiplicity and see how this relates to the Theta pairing. We will use this information to prove the main result of Hochster's '80 paper where he introduced the Theta pairing. Time permitting, we will see Hochster's main interest in defining this invariant for a hypersurface.
+</div>
+
+<div class="tcard">
+	<h3>Amadeus Martin</h3>
+	<h3><em> An Intro to Tor and the Theta Invariant</em></h3>
+	November 1
+	<hr>
+	This will be the first of a two week talk. Today, the main goal is to define Hochster’s theta invariant. To do this, I will introduce Tor and talk about free resolutions over hypersurfaces. I will use this information to define the theta invariant and compute some examples.
+</div>
+
+<div class="tcard">
+	<h3>Seth Lindokken</h3>
+	<h3><em> Multigraded Modules and the BEH Conjecture </em></h3>
+	October 25
+	<hr>
+	Last week we saw that the BEH Conjecture was true for rings of "low" dimension. While the conjecture remains wide open in general, there are some special cases that have been addressed. In today's talk we will address one such case: multigraded modules of finite length over a polynomial ring.
+</div>
+
+<div class="tcard">
+	<h3>Eric Hopkins</h3>
+	<h3><em> The BEH Conjecture for Rings of Low Dimension</em></h3>
+	October 18
+	<hr>
+	A longstanding conjecture from Buchsbaum, Eisenbud, and Horrocks suggests a lower bound for the Betti numbers of finite length modules of finite projective dimension. In this talk, we will outline the elementary proof of the conjecture for rings of low dimension, in preparation for Seth to discuss further results next week.
+</div>
+
+<div class="tcard">
+	<h3>Mohsen Gheibi</h3>
+	<h3><em> A Proof of Equivalence of Direct Summand Theorem and Monomial Theorem</em></h3>
+	October 11
+	<hr>
+	In 1974, M. Hochster proposed two equivalent conjectures namely "Direct Summand" conjecture and "Monomial" conjecture, and proved them for equi-characteristic rings. These conjectures were open in the mixed characteristic case until 2016 when Y. Andre and B. Bhatt resolved them in separate papers. In this talk, I am going to present Hochster's proof of equivalence of Direct Summand Theorem and Monomial Theorem.
+</div>
+
+<div class="tcard">
+	<h3>Andrew Connor</h3>
+	<h3><em> Symbolic Powers and Bounds on the Waldschmidt Constant</em></h3>
+	October 4
+	<hr>
+	I'll be speaking about some summer research I did involving a quantity called the Waldschmidt constant. Defining the Waldschmidt constant will draw on the basics of symbolic powers that Ben gave us a few weeks ago. Certain lower bounds on the Waldschmidt constant have a very pretty relationship with symbolic-power containment results, but we'll see that sometimes containments can't be counted on. Instead we'll pivot to a totally different area of math and use convex geometry to prove a theorem or two, and then look at how we used UNL's supercomputer to generate some significant computational evidence towards a related conjecture.
+</div>
+
+<div class="tcard">
+	<h3>Nick Packauskas</h3>
+	<h3><em> Cohen-Macaulayness and the First Hilbert Coefficient</em></h3>
+	September 27
+	<hr>
+	We will continue our investigation in to Hilbert polynomials and extend our scope to other coefficients besides the leading coefficient. The goal of today's talk is to prove a (semi)recent result relating the Cohen-Macaulay property for a local ring to the first Hilbert Coefficient.
+</div>
+
+<div class="tcard">
+	<h3>Nick Packauskas</h3>
+	<h3><em> Hilbert Polynomials and Multiplicity</em></h3>
+	September 20
+	<hr>
+	Continuing from the groundwork provided by Taran last week, we will further develop the theory of Hilbert polynomials and define a useful invariant of modules. We will then prove a classical result relating this invariant to regular rings. This will provide background for next week, when we will develop the theory even further and relate it to Cohen-Macaulay rings.
+</div>
+
+<div class="tcard">
+	<h3>Taran Funk</h3>
+	<h3><em> Graded Rings, Hilbert Polynomials, and Multiplicity</em></h3>
+	September 13
+	<hr>
+	In this talk we aim to set up the background material needed for Nick Packauskas to blow our minds next week. In particular, we will state some standard results to help us eventually define the Hilbert-Samuel Polynomial and the Multiplicity of a module.
+</div>
+
+
+<div class="tcard">
+	<h3>Ben Drabkin</h3>
+	<h3><em> Symbolic Powers, Containment, and Defect; Part 2: Questions, Answers, and more Questions</em></h3>
+	September 6
+	<hr>
+	This talk will give an introduction to some of the current areas of research in symbolic powers including the containment problem and the question of symbolic defect.
+	<div class="tcardimgcontainer">
+		<img class="tcardimg" style="" src="ben.jpg" alt="Ben Drabkin">
+	</div>
+</div>
+<div class="tcard">
+	<h3>Ben Drabkin</h3>
+	<h3><em> Symbolic Powers, Containment, and Defect; Part 1: A Gentle Introduction to Symbolic Powers</em></h3>
+	August 30
+	<hr>
+	The symbolic powers of an ideal are a construction with interesting geometric and combinatorial properties. This talk will aim to give the background necessary to define the symbolic powers of an ideal, motivate the definition, and give some of the foundational results in the field.
+</div>

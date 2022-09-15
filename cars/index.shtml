@@ -1,0 +1,65 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+<div class="topnav">
+  <a style="cursor:default; background-color:#d00000;cursor:default;">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+</div>
+
+
+
+
+<div class="card">
+  <h2>About</h2>
+  <hr>
+	The Commutative Algebra Reading Seminar (CARS) is an opportunity for graduate students at UNL to learn more about commutative algebra together.
+	In contrast to <a href="https://eloisagrifo.github.io/UNLCAS/index.html">CAS</a>, this seminar is ran by graduate students, for graduate students.
+	Each week a graduate student volunteers to give a talk.
+	These talks often are on general background in commutative algebra, are about their current research, or cover research papers.
+</div>
+
+<div class="card">
+  <h2>Goals</h2>
+  <hr>
+
+<ul>
+	<li> Learn about commutative algebra
+	<li> Foster a sense of community within the commutative algebra research area
+	<li> Practice delivering research talks in friendly environment
+</ul>
+</div>
+
+<div class="card">
+
+  <h2>Social Events</h2>
+  <hr>
+
+<ul>
+	<li> We have a social hour at the <a href="https://www.math.unl.edu/~aseceleanu2/CAS.html">Happy Raven</a>
+	<li> Groups of grad students will work together, meeting outside of the normal weekly time, to prepare series of talks on longer research papers or chapters from textbooks
+	<li> Graduate students at UNL are on the organizing committee for <a href="http://www.math.unl.edu/~shong3/URICA20/">URiCA</a>
+<ul>
+</div>
+
+</BODY>
+</HTML>
+

@@ -1,0 +1,137 @@
+
+
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" type="text/css" href="dristyle.css">
+  </HEAD>
+
+  
+<BODY>
+
+  <TITLE> CARS </TITLE>
+
+  <div class="header">
+  <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="logo.svg" alt="UNL">
+  <h1>CARS</h1>
+  <p> Commutative Algebra Reading Seminar </p>
+</div>
+
+<div class="topnav">
+  <a href="index.shtml">Home</a>
+  <a href="current.shtml">Current Semester</a>
+  <div class="dropdown">
+    <button class="dropbtn">Past Semesters 
+    </button>
+	<!--#include file="dropdown-content.html" --> 
+  </div> 
+  <a style="float:right;background-color:#d00000;cursor:default;">Spring 2018</a>
+</div>
+
+<p>
+
+This semester, CARS was organized by Ben Drabkin and Josh Pollitz</p>
+
+<div class="tcard">
+	<h3>Andrew Conner</h3>
+	<h3><em>Asymptotic Invariants of Symbolic Powers, Part I: Resurgence </em></h3>
+	April 18
+	<hr>
+	This week and next I'll be speaking on two invariants of symbolic powers introduced by Bocci and Harbourne in 2009. This week, we'll look at a quantity called the resurgence, which has an upper bound stemming from the Ein-Lazarsfeld-Smith containment that Ben and Eric presented a few weeks ago. We'll give a lower bound on the resurgence and use the two bounds to examine whether the Ein-Lazarsfeld-Smith containment can be improved.
+</div>
+
+<div class="tcard">
+	<h3>Nick Packauskas</h3>
+	<h3><em>Homotopy Lie Algebras </em></h3>
+	April 11
+	<hr>
+	After covering a couple more results in basic theory of Lie algebras, we will construct an Ext algebra of a local ring using these techniques. We will then explore the structure of the Lie algebra and the homological information it contains.
+</div>
+
+<div class="tcard">
+	<h3>Josh Pollitz and Nick Packauskas </h3>
+	<h3><em>Tate Resolutions and Lie Algebras</em></h3>
+	April 4	
+	<hr>
+    Part 1: Last week, we introduced Ext-algebras as originating from the cohomology of a DG algebra. In the first part of the talk, we introduce Tate resolutions which give us a handle of identifying the algebra structure for the Ext-algebra of the residue field for a local ring. Part 2: The technique of using noncommutative structures to study free resolutions has led to a vast array of research. In this part of the talk, we will introduce some noncommutative machinery that will provide a different perspective on the Ext algebra of a local ring. This construction will be exploited in next week’s talk to provide some hands-on computations and connections to more traditional commutative algebra.
+</div>
+
+<div class="tcard">
+	<h3>Josh Pollitz</h3>
+	<h3><em>DG Algebras and the Algebra Structure on Ext </em></h3>
+	March 28
+	<hr>
+    The main goal of this talk is to discuss one way Ext can be realized as a graded algebra. In the following weeks, Nick (and possibly I, time permitting) will discuss the algebra structure of certain Ext modules. To do this, we first will introduce DG algebras and give several examples of them. Then we will use this framework to view certain complexes as DG algebras. This DG algebra structure will be exploited to obtain the graded algebra structure on Ext, in general, that will be investigated in the coming weeks.
+</div>
+
+<div class="tcard">
+	<h3>Ben Drabkin</h3>
+	<h3><em>Birational Geometry and Symbolic Powers - Part 3: Multiplier Ideals and Uniform Bounds </em></h3>
+	March 14
+	<hr>
+	This talk will introduce multiplier ideals and present Ein, Lazarsfield, and Smith's proof of uniform bounds on the containment of symbolic powers of ideals in ordinary powers.
+</div>
+    
+<div class="tcard">
+	<h3>Eric Canton and Ben Drabkin</h3>
+	<h3><em>A Lil' Sketch of Birational Geometry - Part 2</em></h3>
+	March 7
+	<hr>
+	In this talk, we will discuss divisors and the resolutions of singularities, and then give a brief introduction to symbolic powers.
+</div>
+
+<div class="tcard">
+	<h3>Eric Canton</h3>
+	<h3><em>A Lil' Sketch of Birational Geometry - Part 1 </em></h3>
+	February 28
+	<hr>
+	Birational geometry is a central branch of algebraic geometry with numerous applications to commutative algebra, representation theory (e.g. Milen Yakimov's talks last week), and particle physics (e.g. mirror symmetry and the geometry of Calabi-Yau manifolds). Working towards Ein, Lazarsfeld, and Smith's application of birational geometry to the containment of symbolic powers, in this talk I will attempt to build intuition about two central tools in birational geometry: blowing-up and canonical bundles. 
+</div>
+
+<div class="tcard">
+	<h3>Mohsen Gheibi</h3>
+	<h3><em>Dimension for Subcategories of Modules </em></h3>
+	February 21
+	<hr>
+In this talk, I will go over the section 5 (the last section) of Takahashi's lecture. More precisely, we will define the dimension of a subcategory of modules and then show that if <em>R</em> has finite representation type then the dimension of the category of maximal CM modules is zero. Also, we will show that the converse holds if R is complete and Gorenstein.
+</div>
+
+<div class="tcard">
+	<h3>Amadeus Martin</h3>
+	<h3><em>Improving theorem 3.7 </em></h3>
+	February 14
+	<hr>
+  I will be going over section 4 of the notes by Takahashi. It will be a continuation of Erica's talk, in particular we will improve a result from last week.
+</div>
+
+<div class="tcard">
+	<h3>Erica Musgrave</h3>
+	<h3><em>Finite Generation in the Module Category </em></h3>
+	February 7
+	<hr>
+	I will be going over section 3 of the notes by Takahashi. I will introduce some notation and definitions, and then prove some more results about Tor and Ext and some results about CM local rings.
+</div>
+
+<div class="tcard">
+	<h3>Taran Funk</h3>
+	<h3><em>Annihilators and Nonfree Loci</em></h3>
+	January 31
+	<hr>
+	We will continue on in the notes by Takahashi. I'll try to remind everyone of any results/definitions given by Eric last week as I use them.
+</div>
+
+<div class="tcard">
+	<h3>Eric Hopkins</h3>
+	<h3><em>Uniform Annihilation of Tor (and Ext)</em></h3>
+	January 24
+	<hr>
+	I'll kick things off in the notes, talking about Annihilation (no, not the Natalie Portman movie) of some Tor (and Ext) modules over Cohen-Macaulay Rings.
+</div>
+
+<div class="tcard">
+	<h3>Nick Packauskas</h3>
+	<h3><em>An Introduction to MCM Modules </em></h3>
+	January 17	
+	<hr>
+	Over the past several decades, there has been a lot of work dedicated to the study of Maximal Cohen Macaulay (MCM) modules. In this talk, I hope to give some background about why they are an important area of research and set the groundwork for our group to read through Ryo Takahashi’s notes on MCM modules.
+</div>
+
