@@ -118,7 +118,7 @@ ul li::before {
 .card2 {
     font-size: 1.1em;
   background-color: white;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .card3 {
@@ -126,7 +126,7 @@ ul li::before {
   background-color: white;
   padding: 20px;
   margin-top: 1px;
-  
+
 }
 
 .card4 {
@@ -177,15 +177,3 @@ ul li::before {
   text-decoration: none;
   background-color: #DCDCDC;
 }
-
-
-
-
-
-
-
-
-
-
-
-			
