@@ -148,7 +148,7 @@ input[type=submit]:hover {
   margin-top: 6px;
 }
 
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
   margin-top:8px;
@@ -176,7 +176,7 @@ input[type=submit]:hover {
   margin-top: 45px;
   margin-bottom: 45px;
   border-style: solid;
-  border-color: #d00000; 
+  border-color: #d00000;
 }
 
 .tcard {
@@ -185,7 +185,7 @@ input[type=submit]:hover {
   margin-top: 35px;
   margin-bottom: 35px;
   border-style: solid;
-  border-color: #d00000; 
+  border-color: #d00000;
 }
 
 /* Footer */
@@ -198,7 +198,7 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .leftcolumn, .rightcolumn, input[type=submit] {   
+  .leftcolumn, .rightcolumn, input[type=submit] {
     width: 100%;
     padding: 0;
   }
@@ -218,7 +218,7 @@ input[type=submit]:hover {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
