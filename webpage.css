@@ -1,0 +1,191 @@
+body {
+  font-family:Helvetica, Verdana, sans-serif;
+  padding: 10px;
+  background: white;
+}
+
+.brsmall {
+            display: block;
+            margin-bottom: -1em;
+}
+
+.brmedium {
+            display: block;
+            margin-bottom: 1em;
+}
+
+.brlarge {
+            display: block;
+            margin-bottom: 2em;
+}
+
+.me-image {
+    width: 215px;
+    float: left;
+    margin-right:2rem;
+    margin-left:2rem;
+}
+
+h2 {
+    display: block;
+    font-style: italic;
+  font-size: 1.2em;
+  margin-top: -1.5em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+h3 {
+    display: block;
+    font-style: italic;
+  font-size: 1.2em;
+  margin-top: .2em;
+  margin-bottom: .5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+43 {
+    display: block;
+  font-size: 1em;
+  margin-top: .2em;
+  margin-bottom: .5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+hr {
+    display: block;
+    border-style:inset;
+    border-color:#303030;
+    background-color:#303030;
+    height: 3px;
+    border: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #505050;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #707070;
+  color: black;
+}
+
+.header {
+  background-color: #303030;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: "Helvetica";
+}
+
+ul {
+    list-style:none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #b30000;
+    font-weigth: bold;
+    display:inline-block;
+    width:1em;
+    margin-left:-1em;
+}
+
+.card1 {
+  font-size: 1.1em;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card2 {
+    font-size: 1.1em;
+  background-color: white;
+  padding: 20px; 
+}
+
+.card3 {
+    font-size: 1.1em;
+  background-color: white;
+  padding: 20px;
+  margin-top: 1px;
+  
+}
+
+.card4 {
+    text-align: center;
+    font-size: 1.1em;
+  background-color: #DCDCDC;
+  padding: 20px;
+  margin-top: 1px;
+}
+
+.card5 {
+    text-align: center;
+    font-size: 1.1em;
+  background-color: white;
+  padding: 20px;
+  margin-top: 1px;
+}
+
+.speaker {
+  overflow: hidden;
+}
+
+.speaker person{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-align: left;
+  border-top: 2px solid  #A9A9A9;
+  border-bottom: 2px solid  #A9A9A9;
+  padding: 5px;
+  background-color: #ADD8E6;
+  line-height: 2;
+}
+
+.speaker time{
+    height: 100px;
+    width: 120px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-top: 2px solid  #A9A9A9;
+  border-bottom: 2px solid  #A9A9A9;
+  border-right: 2px solid black;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #DCDCDC;
+}
+
+
+
+
+
+
+
+
+
+
+
+			
