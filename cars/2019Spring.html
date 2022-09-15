@@ -8,6 +8,7 @@
   <script type="text/javascript" src="../assets/scripts/includeHTML.js"></script>
 </head>
 
+<body>
 <div class="header">
   <img style="position:absolute;right:43px;top:63px;widht:90px;height:90px;" src="../assets/images/logo.svg" alt="UNL logo">
   <h1>CARS</h1>
@@ -20,26 +21,7 @@
   <div class="dropdown">
     <button class="dropbtn">Past Semesters
     </button>
-    <div class="dropdown-content">
-      <a href="2022Spring.html">Spring 2022</a>
-      <a href="2021Fall.html">Fall 2021</a>
-      <a href="2021Spring.html">Spring 2021</a>
-      <a href="2020Fall.html">Fall 2020</a>
-      <a href="2020Spring.html">Spring 2020</a>
-      <a href="2019Fall.html">Fall 2019</a>
-      <a href="2019Spring.html">Spring 2019</a>
-      <a href="2018Fall.html">Fall 2018</a>
-      <a href="2018Spring.html">Spring 2018</a>
-      <a href="2017Fall.html">Fall 2017</a>
-      <a href="2017Spring.html">Spring 2017</a>
-      <a href="2016Fall.html">Fall 2016</a>
-      <a href="2016Spring.html">Spring 2016</a>
-      <a href="2015Fall.html">Fall 2015</a>
-      <a href="2015Spring.html">Spring 2015</a>
-      <a href="2014Fall.html">Fall 2014</a>
-      <a href="2014Spring.html">Spring 2014</a>
-      <a href="2013Fall.html">Fall 2013</a>
-    </div>
+<div include-html-snippet="dropdown-content.html"></div>
   </div>
   <a style="float:right;background-color:#d00000;cursor:default;">Spring 2019</a>
 </div>
@@ -178,6 +160,11 @@ the stable MCM module category and the singularity category over a Gorenstein ri
 This will be done in two parts. This week we introduce a third category of unbounded
 acyclic complexes of projectives, and show its equivalence to MCM stable.
 </div>
+
+<script>
+  includeHTMLSnippet();
+</script>
+</body>
 
 
 </html>

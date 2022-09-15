@@ -1,4 +1,4 @@
-<script>
+
   function includeHTMLSnippet() {
     id = document.getElementsByTagName("*");
     for (i = 0; i < id.length; i++) {
@@ -26,4 +26,3 @@
       }
     }
   };
-</script>
