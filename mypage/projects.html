@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="author" content="Matthew Bachmann">
+  <meta name="description" content="This is Matthew Bachmann's personal webpage with information about coding projects he has worked on.">
   <title> Matthew Bachmann</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link rel="icon" href="../assets/images/Ouroboros.svg">
 </head>
 
 
 <body>
 
-<div class="header">
-  <!-- <img style="position:absolute;right:43px;top:70px;widht:90px;height:50px;"
-    src="../assets/images/logo.svg" alt="UNL logo" width="7%"> -->
-    <br>
+<header>
     <h1>Matthew Bachmann</h1>
-    <br>
-</div>
+</header>
 
-<div class="topnav">
-  <a href="../index.html">Home</a>
-  <a href="teaching.html">Teaching</a>
-  <a style="cursor:default; background-color:#303030;cursor:default;">Projects</a>
-  <!--<a href="academics.html">Academics</a>-->
-  <!--<a href="involvement.html">Involvement</a>-->
-  <a href="BachmannCV_I82223.pdf" style="float:center;">CV</a>
-  <!-- <a href="https://drp-unl.github.io/" style="float:right;">DRP</a> -->
-  <!-- <a href="https://cars-unl.github.io/" style="float:right;">CARS</a> -->
-  <a href="https://https://github.com/matthew-bachmann/" style="float:right;">GitHub </a> 
+<nav>
+  <ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="teaching.html">Teaching</a></li>
+  <li class="active">Projects</li>
+  <li><a href="BachmannCV_I82223.pdf">CV</a></li>
+  <li><a href="https://github.com/matthew-bachmann/">GitHub </a></li> 
+  </ul>
+</nav>
 
-</div>
+<main>
+<article>
+  <br>
+    <h2>Nueral Network</h2>
+  <p> I'm currently teaching myself Python by trying to build a nueral network from scratch (I know there are libraries for this that are surely more efficient than anything I can write). I was inspired by watching <a href="https://www.youtube.com/watch?v=hfMk-kjRv4c&t=355s">Sebastian Lague's youtube video </a> where he builds a nueral network to classify hand drawn images. That channel is great and I highly recommend checking it out!
+    </p> 
+    
+  <p>
+    While the video explains ML concepts in a very accessible way, it does leave out some of the coding details. The idea of this project is to recreate the program from the video in Python. My main goals are to:
+    </p>
 
-<div>
-    <h3>Nueral Network</h3>
-  <p> I'm currently teaching myself Python by trying to build a nueral network from scratch (I know there are libraries for this that are much more efficient than what I can write). I was inspired by watching <a href="https://www.youtube.com/watch?v=hfMk-kjRv4c&t=355s">Sebastian Lague's youtube video </a> where he builds a nueral network to classify hand drawn images. That channel is great and I highly recommend checking it out! While the video explains ML concepts in a very accessible way, it does leave out some of the coding details. My goal is to recreate this project in Python and find ways to reproduce the beautiful graphs produced in the video. Here I will catalogue my journey, all code can be found on GitHub.
+    <p>
+    <ul>
+      <li>
+        Learn Python better and become familiar with the data science libraries available.
+      </li>
+      <li>
+        Uderstand the machine learning algorithms and techniques while blackboxing as little as possible.
+      </li>
+      <li>
+        Figure out how to make nice graphics in Python and use them to explain how well the neural network is performing.
+      </li>
+    </ul>
+  </p>
+<p>
+    Here I will catalogue my journey, all code can be found on GitHub.
+    <hr>
 </p>
 
-<h4>
+
+<h3>
     Day 1
-</h4>
+</h3>
 <p>
-    I'm very interested in data visualization though I've never used Python for anything, let alone the data science libraries. So I began by trying to make a graph. My goal was to produce a nice looking graph for a general quadratic $ax^2+bx+c$ using `MatPlotLib` and `Numpy`. The first challenge immediately presented itself; VSCode served me a `modulenotfounderror: no module named 'matplotlib'` which is apparently a common issue.  
+    I'm very interested in data visualization though I've never used Python for anything, let alone the data science libraries. I decided to start quite small. My goal was to produce a nice looking graph for a general quadratic <span class = "math">ax<sup>2</sup>+bx+c</span> using <code>Matplotlib</code> and <code>NumPy</code>.
+</p> 
+<p>
+  Apparently I don't know how to use VSCode because I immediately encountered an error—<code>ModuleNotFoundError: No module named 'Matplotlib'</code>—which is apparently a common issue. This was not all bad, though, because I learned about setting up a virtual environment. Most of the advice online said that <code>Matplotlib</code> must not be installed on the virtual environment that VSCode was using. This was not the case though. In fact, VSCode had no problem running the code if 'Run in Terminal' was selected. For some reason that I still don't understand, navigating to my file in terminal and opening VSCode from terminal by typing <code>code</code> fixed the issue. 
+</p>
+<p>
+  I spent a long time trying to resolve the error and at various points gave up and wrote some code instead. I made some progres but kept going back to the error. Overall, slow start but I guess that is to be expected. 
 </p>
  
-
-
+</main>
 </body>
 </HTML>

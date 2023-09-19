@@ -1,179 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+header {
+  background-color: #283B42;
+  text-align: center;
+  color: #F4D6EA;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #283B42;
+  display: block;
+  text-align: center;
+  margin-left:0;
+}
+
+nav li {
+  float: left;
+  margin-bottom:0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F4D6EA;
+  display: block;
+  padding: 10px;
+  width: 90px;
+}
+
+nav li:last-child {
+  float:right;
+}
+
+nav li.active {
+  padding: 10px;
+  width: 90px;
+  background-color: #B6B7CB;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #B6B7CB;
+  color: black;
+}
+
+
+ h1 {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
 body {
   font-family:Helvetica, Verdana, sans-serif;
-  padding: 10px;
-  background: white;
+  background:#1B2B30;
+  color: whitesmoke;
 }
 
-.brsmall {
-            display: block;
-            margin-bottom: -1em;
+p {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  color:whitesmoke;
 }
 
-.brmedium {
-            display: block;
-            margin-bottom: 1em;
+.math {
+  font-family:serif;
+  font-style:italic;
+  font-size:18px;
+  letter-spacing:1.5px;
 }
 
-.brlarge {
-            display: block;
-            margin-bottom: 2em;
+code {
+  font-size:16px;
+}
+
+sup {
+  font-size: 10px;
+}
+
+a {
+  color: #D5C7DB;
+}
+
+ul {
+  margin-left: 80px;
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 .me-image {
     width: 215px;
     float: left;
-    margin-right:2rem;
-    margin-left:2rem;
+    margin: 2rem;
 }
 
 h2 {
-    display: block;
-    font-style: italic;
-  font-size: 1.2em;
-  margin-top: -1.5em;
-  margin-bottom: 2em;
-  margin-left: 0;
+  color: #E5CFE3;
+  font-style: italic;
+  font-size: 1.5em;
+  margin-left: 40px;
   margin-right: 0;
+  margin-bottom: 15px;
   font-weight: normal;
 }
 
 h3 {
-    display: block;
-    font-style: italic;
+  color: #E5CFE3;
   font-size: 1.2em;
   margin-top: .2em;
   margin-bottom: .5em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: normal;
-}
-
-43 {
-    display: block;
-  font-size: 1em;
-  margin-top: .2em;
-  margin-bottom: .5em;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 40px;
+  margin-right: 50px;
   font-weight: normal;
 }
 
 hr {
-    display: block;
-    border-style:inset;
-    border-color:#303030;
-    background-color:#303030;
-    height: 3px;
-    border: 0;
+    background-color:#F4D6EA;
+    height: 2px;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #505050;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 13px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #707070;
-  color: black;
-}
-
-.header {
-  background-color: #303030;
-  text-align: center;
-  color: white;
-  padding: 20px;
-  font-family: "Helvetica";
-}
-
-ul {
-    list-style:none;
-}
-
-ul li::before {
-    content: "\2022";
-    color: #b30000;
-    font-weigth: bold;
-    display:inline-block;
-    width:1em;
-    margin-left:-1em;
-}
-
-.card1 {
-  font-size: 1.1em;
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.card2 {
-    font-size: 1.1em;
-  background-color: white;
-  padding: 20px;
-}
-
-.card3 {
-    font-size: 1.1em;
-  background-color: white;
-  padding: 20px;
-  margin-top: 1px;
-
-}
-
-.card4 {
-    text-align: center;
-    font-size: 1.1em;
-  background-color: #DCDCDC;
-  padding: 20px;
-  margin-top: 1px;
-}
-
-.card5 {
-    text-align: center;
-    font-size: 1.1em;
-  background-color: white;
-  padding: 20px;
-  margin-top: 1px;
-}
-
-.speaker {
-  overflow: hidden;
-}
-
-.speaker person{
-  height: 100px;
-  display: flex;
-  align-items: center;
-  color: black;
-  text-align: left;
-  border-top: 2px solid  #A9A9A9;
-  border-bottom: 2px solid  #A9A9A9;
-  padding: 5px;
-  background-color: #ADD8E6;
-  line-height: 2;
-}
-
-.speaker time{
-    height: 100px;
-    width: 120px;
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  border-top: 2px solid  #A9A9A9;
-  border-bottom: 2px solid  #A9A9A9;
-  border-right: 2px solid black;
-  color: black;
-  padding: 5px;
-  text-decoration: none;
-  background-color: #DCDCDC;
-}
