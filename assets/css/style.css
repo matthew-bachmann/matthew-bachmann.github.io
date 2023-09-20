@@ -32,6 +32,8 @@ nav a {
   display: block;
   padding: 10px;
   width: 90px;
+  border-radius: 20px;
+  margin: 5px;
 }
 
 nav li:last-child {
@@ -40,7 +42,9 @@ nav li:last-child {
 
 nav li.active {
   padding: 10px;
+  margin: 5px;
   width: 90px;
+  border-radius: 20px;
   background-color: #B6B7CB;
   color: black;
 }
@@ -97,9 +101,10 @@ li {
 }
 
 .me-image {
-    width: 215px;
+    width: 250px;
     float: left;
     margin: 2rem;
+    border-radius: 125px;
 }
 
 h2 {
