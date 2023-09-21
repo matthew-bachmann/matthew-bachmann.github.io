@@ -193,4 +193,10 @@ sub {
   margin-left: 5rem;
 }
 
+.day {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  display: flow-root;
+}
+
 

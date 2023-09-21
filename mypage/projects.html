@@ -56,44 +56,44 @@
     <hr>
 </p>
 
+<div class="day">
 <h3>
   Day 2
 </h3>
 
-<div class="graph-box">
 <img class="math-image right" src="../assets/images/basic_parabola.png" alt="A graph containing the parabola ax^2 + bx + c">
 
 <p>
   The next day went far more smoothly now that I had the graphing utility functioning properly. I realized that I need to navigate to the virtual environment and open VSCode from there every time, unfortunately. 
-  </p>
+</p>
 
-  <p> In any case, I was very quickly able to get some code to produce a general parabola <span class = "math">ax<sup>2</sup>+bx+c</span>. I wanted to add this interactive plot to my HTML page but after a bit of googling I think I may need to learn some JavaScript and how back ends work. I'll attempt this soon.
-    </p>
-    <p>
-      The next goal was to make the plot look nice. I spent a bit of time making style changes in-line to get a pretty decent looking graph. Then I learned about making a Matplotlib style sheet. This cleaned up my code quite a bit and I was able to make a nicer looking graph.
-    </p> 
+<p> 
+  In any case, I was very quickly able to get some code to produce a general parabola <span class = "math">ax<sup>2</sup>+bx+c</span>. I wanted to add this interactive plot to my HTML page but after a bit of googling I think I may need to learn some JavaScript and how back ends work. I'll attempt this soon.
+</p>
 
-    <img class="math-image left" src="../assets/images/nicer.png" alt="Another graph containing the parabola ax^2 + bx + c"> 
+<p>
+  The next goal was to make the plot look nice. I spent a bit of time making style changes in-line to get a pretty decent looking graph. Then I learned about making a Matplotlib style sheet. This cleaned up my code quite a bit and I was able to make a nicer looking graph.
+</p> 
+
+<img class="math-image left" src="../assets/images/nicer.png" alt="Another graph containing the parabola ax^2 + bx + c"> 
+
 <p>
   Now that I could make a basic graph that looks decent, it was time to start generating some random data. My objective was to make a scatter plot with randomly generated data and have some region of the data be "good" and another region be "bad". Then I wanted to code a basic network that will determine if the randomly generated points are good or bad based on their <span class="math">(x,y)</span> position. The beginning network would plug a point into the equations
   <span class="math-equation">w<sub>11</sub>x+w<sub>21</sub>y = o<sub>1</sub></span>
   <span class="math-equation">w<sub>12</sub>x+w<sub>22</sub>y = o<sub>2</sub></span>
-  </p>
-  and if <span class="math">o<sub>1</sub> &ge; o<sub>2</sub></span> the point is good, otherwise it is bad. The weights would eventually be updated based on how well the network classified the training data.
-
-  <p>
-
-  </p>
-
+  and if <span class="math">o<sub>1</sub> &ge; o<sub>2</sub></span> the point is good, otherwise it is bad. The weights would eventually be updated based on how well the network classified the training data. Since I am not yet implementing any bias or an activation function, everything is linear through the origin.
+</p>
+<img class="math-image right" src="../assets/images/test_data.png" alt="A scatter plot with good and bad data."> 
 <p>
-  The 
+  So I made a plot that had some points scattered randomly. The good points are all inside a parabola. In addition, there are sliders for the weights. Everything above the line is what the network classifies as good for the given weights and is shaded blue. The eventual goal is to have the network improve the weights and in turn update the regions. Since the good points are not in a linearly defined region, the network will currently have a hopeless task. However, once we introduce an activation function some non-linearity will be introduced and we will be able to test the success of the network.  
 </p>
 
 </div>
 
+
 <hr>
 
-<div class="day">
+<div>
 <h3>
     Day 1
 </h3>
