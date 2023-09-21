@@ -27,40 +27,42 @@ nav{
 
 nav ul {
   list-style-type: none;
-  overflow: hidden;
-  background-color: #283B42;
-  text-align: center;
+  background-color: #283B42; 
+  text-align: left;
   margin: auto;
 }
 
 nav li {
-  float: left;
+  display: inline-block;
   width: auto;
-  margin: 0 .3em .3em .3em;
+  margin: 0 0 .6em .6em;
+  border-radius: 20px;
 }
 
 nav li.active {
-  padding: 10px;
-  border-radius: 20px;
   background-color: #B6B7CB;
   color: black;
+  padding: 10px;
+  text-align: justify;
 }
 
 nav li a {
+  display: block;
   text-decoration: none;
   color: #F4D6EA;
-  display: block;
   padding: 10px;
-  border-radius: 20px;
 }
 
 nav li a:hover {
   background-color: #B6B7CB;
   color: black;
+  border-radius: 20px;
+  padding:10px;
 }
 
 nav li:last-child {
   float:right;
+  margin-right: .6em;
 }
 
 
