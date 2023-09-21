@@ -18,7 +18,7 @@ body {
   background:#1B2B30;
   color: whitesmoke;
   font-family: Roboto, sans-serif;
-  font-size:1.3rem;
+  font-size:1.2rem;
 }
 
 nav{
@@ -73,50 +73,6 @@ nav li:last-child {
   font-size: 3rem;
 }
 
-p {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  color:whitesmoke;
-}
-
-.math {
-  font-family:serif;
-  font-style:italic;
-  font-size:1.2em;
-  letter-spacing:.1em;
-}
-
-code {
-  font-size:1.3em;
-  background-color: hwb(0 83% 17% / 0.8);
-  color: black;
-}
-
-sup {
-  font-size: .6em;
-}
-
-a {
-  color: #D5C7DB;
-}
-
-ul {
-  margin-top: -1.5em;
-  margin-left: 80px;
-}
-
-li {
-  margin-bottom: .5em;
-}
-
-.me-image {
-    width: 250px;
-    float: left;
-    margin: 2rem;
-    border-radius: 125px;
-}
-
 h2 {
   color: #E5CFE3;
   font-style: italic;
@@ -137,11 +93,11 @@ h3 {
   font-weight: normal;
 }
 
-hr {
-    background-color:#F4D6EA;
-    height: 2px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  color:whitesmoke;
 }
 
 section {
@@ -154,9 +110,90 @@ section {
   margin-bottom: 2rem;
 }
 
+a {
+  color: #D5C7DB;
+}
+
+ul {
+  margin-top: -1.5em;
+  margin-left: 80px;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+hr {
+    background-color:#F4D6EA;
+    height: 2px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+code {
+  font-size:1em;
+  background-color: hwb(0 83% 17% / 0.8);
+  color: black;
+}
+
+sup {
+  font-size: .6em;
+}
+
+sub {
+  font-size: .6em;
+}
+
+.math {
+  font-family:serif;
+  font-style:italic;
+  font-size:1.1em;
+  letter-spacing:.1em;
+}
+
+.math-equation {
+  display:block;
+  font-family:serif;
+  font-style:italic;
+  font-size:1.1em;
+  letter-spacing:.1em;
+  text-align: center;
+}
+
 .float-text {
   margin: 2rem;
   color:black;
   line-height: 1em;
+}
+
+.me-image {
+  width: 250px;
+  float: left;
+  margin: 2rem;
+  border-radius: 125px;
+}
+
+.math-image {
+  width: 400px;
+  float: right;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  display: flow-root;
+}
+
+.right {
+  float: right;
+  margin-right: 5rem;
+  margin-left: 2rem;
+}
+
+.left {
+  float: left;
+  margin-right: 2rem;
+  margin-left: 5rem;
+}
+
+.graph-box {
+  display: flow-root;
 }
 

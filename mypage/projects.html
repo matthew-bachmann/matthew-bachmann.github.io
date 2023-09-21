@@ -59,12 +59,41 @@
 <h3>
   Day 2
 </h3>
+
+<div class="graph-box">
+<img class="math-image right" src="../assets/images/basic_parabola.png" alt="A graph containing the parabola ax^2 + bx + c">
+
 <p>
-  The next day went far more smoothly now that I had a graphing utility.
+  The next day went far more smoothly now that I had the graphing utility functioning properly. I realized that I need to navigate to the virtual environment and open VSCode from there every time, unfortunately. 
+  </p>
 
-  <hr>
-</p> 
+  <p> In any case, I was very quickly able to get some code to produce a general parabola <span class = "math">ax<sup>2</sup>+bx+c</span>. I wanted to add this interactive plot to my HTML page but after a bit of googling I think I may need to learn some JavaScript and how back ends work. I'll attempt this soon.
+    </p>
+    <p>
+      The next goal was to make the plot look nice. I spent a bit of time making style changes in-line to get a pretty decent looking graph. Then I learned about making a Matplotlib style sheet. This cleaned up my code quite a bit and I was able to make a nicer looking graph.
+    </p> 
 
+    <img class="math-image left" src="../assets/images/nicer.png" alt="Another graph containing the parabola ax^2 + bx + c"> 
+<p>
+  Now that I could make a basic graph that looks decent, it was time to start generating some random data. My objective was to make a scatter plot with randomly generated data and have some region of the data be "good" and another region be "bad". Then I wanted to code a basic network that will determine if the randomly generated points are good or bad based on their <span class="math">(x,y)</span> position. The beginning network would plug a point into the equations
+  <span class="math-equation">w<sub>11</sub>x+w<sub>21</sub>y = o<sub>1</sub></span>
+  <span class="math-equation">w<sub>12</sub>x+w<sub>22</sub>y = o<sub>2</sub></span>
+  </p>
+  and if <span class="math">o<sub>1</sub> &ge; o<sub>2</sub></span> the point is good, otherwise it is bad. The weights would eventually be updated based on how well the network classified the training data.
+
+  <p>
+
+  </p>
+
+<p>
+  The 
+</p>
+
+</div>
+
+<hr>
+
+<div class="day">
 <h3>
     Day 1
 </h3>
@@ -72,11 +101,12 @@
     I'm very interested in data visualization though I've never used Python for anything, let alone the data science libraries. I decided to start quite small. My goal was to produce a nice looking graph for a general quadratic <span class = "math">ax<sup>2</sup>+bx+c</span> using <code>Matplotlib</code> and <code>NumPy</code>.
 </p> 
 <p>
-  Apparently I don't know how to use VSCode because I immediately encountered an error—<code>ModuleNotFoundError: No module named 'Matplotlib'</code>—which is apparently a common issue. This was not all bad, though, because I learned about setting up a virtual environment. Most of the advice online said that <code>Matplotlib</code> must not be installed on the virtual environment that VSCode was using. This was not the case though. In fact, VSCode had no problem running the code if 'Run in Terminal' was selected. For some reason that I still don't understand, navigating to my file in terminal and opening VSCode from terminal by typing <code>code</code> fixed the issue. 
+  Apparently I don't know how to use VSCode because I immediately encountered an error—<code>ModuleNotFoundError: No module named 'Matplotlib'</code>—which turns out to be a common issue. This was not all bad, though, because I learned about setting up a virtual environment. Most of the advice online said that <code>Matplotlib</code> must not be installed on the virtual environment that VSCode was using. This was not the case though. In fact, VSCode had no problem running the code if 'Run in Terminal' was selected. For some reason that I still don't understand, navigating to my file in terminal and opening VSCode from terminal by typing <code>code</code> fixed the issue. 
 </p>
 <p>
   I spent a long time trying to resolve the error and at various points gave up and wrote some code instead. I made some progres but kept going back to the error. Overall, slow start but I guess that is to be expected. 
 </p>
+</div>
  
 </main>
 </body>
