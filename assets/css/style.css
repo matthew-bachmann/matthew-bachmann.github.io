@@ -18,11 +18,12 @@ body {
   background:#1B2B30;
   color: whitesmoke;
   font-family: Roboto, sans-serif;
+  font-size:1.3rem;
 }
 
 nav{
   margin: 0rem auto 0rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 } 
 
 nav ul {
@@ -141,5 +142,21 @@ hr {
     height: 2px;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+section {
+  display: flow-root;
+  max-width: 70%;
+  background-color: rgba(182, 183, 203,.8);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.float-text {
+  margin: 2rem;
+  color:black;
+  line-height: 1em;
 }
 
