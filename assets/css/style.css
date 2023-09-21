@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,80 +14,84 @@ header {
   padding-bottom: 2.5rem;
 }
 
+body {
+  background:#1B2B30;
+  color: whitesmoke;
+  font-family: Roboto, sans-serif;
+}
+
+nav{
+  margin: 0rem auto 0rem;
+  font-size: 1.2rem;
+} 
+
 nav ul {
   list-style-type: none;
   overflow: hidden;
   background-color: #283B42;
-  display: block;
   text-align: center;
-  margin-left:0;
+  margin: auto;
 }
 
 nav li {
   float: left;
-  margin-bottom:0;
+  width: auto;
+  margin: 0 .3em .3em .3em;
 }
 
-nav a {
+nav li.active {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #B6B7CB;
+  color: black;
+}
+
+nav li a {
   text-decoration: none;
   color: #F4D6EA;
   display: block;
   padding: 10px;
-  width: 90px;
   border-radius: 20px;
-  margin: 5px;
+}
+
+nav li a:hover {
+  background-color: #B6B7CB;
+  color: black;
 }
 
 nav li:last-child {
   float:right;
 }
 
-nav li.active {
-  padding: 10px;
-  margin: 5px;
-  width: 90px;
-  border-radius: 20px;
-  background-color: #B6B7CB;
-  color: black;
-}
-
-nav a:hover {
-  background-color: #B6B7CB;
-  color: black;
-}
 
 
  h1 {
   font-weight: normal;
-  font-size: 2.5rem;
-}
-
-body {
-  font-family:Helvetica, Verdana, sans-serif;
-  background:#1B2B30;
-  color: whitesmoke;
+  font-size: 3rem;
 }
 
 p {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
   color:whitesmoke;
 }
 
 .math {
   font-family:serif;
   font-style:italic;
-  font-size:18px;
-  letter-spacing:1.5px;
+  font-size:1.2em;
+  letter-spacing:.1em;
 }
 
 code {
-  font-size:16px;
+  font-size:1.3em;
+  background-color: hwb(0 83% 17% / 0.8);
+  color: black;
 }
 
 sup {
-  font-size: 10px;
+  font-size: .6em;
 }
 
 a {
@@ -93,11 +99,12 @@ a {
 }
 
 ul {
+  margin-top: -1.5em;
   margin-left: 80px;
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: .5em;
 }
 
 .me-image {
@@ -111,9 +118,9 @@ h2 {
   color: #E5CFE3;
   font-style: italic;
   font-size: 1.5em;
-  margin-left: 40px;
+  margin-left: 2em;
   margin-right: 0;
-  margin-bottom: 15px;
+  margin-bottom: .5em;
   font-weight: normal;
 }
 
@@ -122,13 +129,15 @@ h3 {
   font-size: 1.2em;
   margin-top: .2em;
   margin-bottom: .5em;
-  margin-left: 40px;
-  margin-right: 50px;
+  margin-left: 2em;
+  margin-right: 2em;
   font-weight: normal;
 }
 
 hr {
     background-color:#F4D6EA;
     height: 2px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
