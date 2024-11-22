@@ -1,0 +1,121 @@
+---
+title: "Day 36 Notes: Linear Regression III"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(palmerpenguins)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+
+## Linear Regression
+
+Suppose we consider a model 
+
+$$\hat{Y_i} = b_1 X_i + b_0$$
+
+Our hope is that our estimations are pretty close to the actual values.
+That is, we hope that:
+
+$$Y_i = b_1 X_i + b_0 + \epsilon$$
+
++ We think of the error term as encapsulation some random variation in the response variable.
++ In a hypothesis test, this is our alternate hypothesis.
+
++ The **null model** will be our null hypothesis. In the null model, there is not a relationship between the explanatory variable and the response variable (so $b_1=0$).
+
+$H_0: Y_i = b_0 + \epsilon$: the null model is better at predicting $Y_i$ 
+$H_A: Y_i = b_1 X_i + b_0 + \epsilon$: the alternate model is better at predicting $Y_i$
+
+
+
+```{r}
+load("~/Documents/GitHub/MAT104-Fall24/Week12/parenthood.Rdata")
+dansleep <- parenthood$dan.sleep
+babysleep <- parenthood$baby.sleep
+grump <- parenthood$dan.grump
+set.seed(33)
+GPA <- rnorm(100,3,.3)
+```
+
+$H_0:$ Danielle's grumpiness is due to random variation
+$H_A:$ Danielles's sleep predicts her grumpiness better than random variation.
+
+
+```{r}
+# To find the line of best fit we use the lm() function:
+summary(lm(grump ~ dansleep))
+```
+
++ Since the p-value is very close to 0, there is statistically significant evidence that using sleep to predict grumpiness performs better than random variation. 
+
+## Random Variation
+
++ Let's actually test if Danielle's grumpiness is better explained by random variation or by 100 random student GPAs
+
+```{r}
+summary(lm(parenthood$dan.grump~GPA))
+```
+
+Since we get a p-value of $.651$, there is not significant evidence that these 100 random student GPAs are good predictors of Danielle's grumpiness. In fact, we can see this in a scatter plot:
+
+
+```{r}
+df<-data.frame(grump,GPA)
+ggplot(df,aes(x=GPA,y=grump))+geom_point() + geom_abline(intercept = 59.117, slope = 1.522)
+```
+
+
+
+$$\hat{Y_i} = -8.936 X_i + 125.9563$$
+
+### Pitfalls
+
++ Just because a linear model performs better than random variation does not mean the model performs well. Compare the following two linear regressions:
+
+
+
+
+```{r}
+summary(lm(grump ~ dansleep))
+summary(lm(grump ~ babysleep))
+```
+
++ They both have low p-values, so they both predict Danielle's grumpiness better than randomness. 
++ Looking at the $R^2$ value reveals a bit more information, Danielle's sleep can explain about $81 \%$ of the variation in here grumpiness. However, the baby's sleep would only account for $31 \%$ of the variation.
+
+### Multiple Regression Model
+
+
+
+```{r}
+summary(lm(grump ~ dansleep + babysleep))
+```
+
+Looking at the multiple regression model, we see that the p-value for specifically the baby's sleep is really high. So, in the multiple regression model we see that the baby's sleep does not help predict Danielle's grumpiness better than just random varaition when Danielle's sleep is taken into account.
+
+## Confidence Intervals for the Coefficients
+
++ We can actually find confidence intervals for each coefficient in our model. 
++ note that the Danielle sleep coefficient has standard error .55346
+From this we can say:
+
+```{r}
+-8.9368 - qt(.975,97)*.4285
+-8.9368 + qt(.975,97)*.4285
+# We are 95% confident that the coefficient for Danielle's sleep is between -9.79 and -8.09
+```
+
