@@ -1,0 +1,130 @@
+---
+title: "Day5--Histograms, Scatter Plots, Outliers"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(palmerpenguins)
+library(tidyverse)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Finish Box Plots
+- Histograms
+- Scatter Plots
+- Standard deviation
+
+---
+
+## Outlier in Chinstrap data
+
+To begin with, filter out a data frame that only has the Chinstrap penguins in it:
+
+```{r}
+# look at the data
+penguins_data <- penguins
+
+# Filter Chinstrap
+chinstrap <- filter(penguins, species == "Chinstrap")
+
+```
+
+Now plot a box plot for the body mass of Chinstrap penguins:
+
+```{r}
+# Body mass boxplot for Chinstrap penguins
+ggplot(chinstrap, aes(y = body_mass_g)) + geom_boxplot()
+
+```
+
+Now compute the quantiles for the body mass of Chinstrap penguins
+
+```{r}
+# quantiles for body mass of Chinstrap penguins
+quantile(chinstrap$body_mass_g)
+```
+
+
+Finally, compute the size of the whiskers by doing $Q_3 + 1.5 \times IQR$ and $Q_1 - 1.5 \times IQR$
+
+```{r}
+# compute the size of the whiskers
+IQR <- 3950 - 3487.5
+IQR(chinstrap$body_mass_g)
+3950 + 1.5*IQR
+3487.5 - 1.5*IQR
+```
+
+### Facets
+
+```{r}
+ggplot(penguins, aes(y=body_mass_g)) +
+  geom_boxplot() + 
+  facet_wrap(~species)
+
+ggplot(penguins, aes(y=body_mass_g, color=species)) +
+  geom_boxplot() 
+```
+
+## Histograms
+
+```{r}
+ggplot(penguins, aes(x = body_mass_g)) + geom_histogram(binwidth = 50)
+```
+
+## Scatterplots
+
+## Standard Deviation
+
+$$\text{standard deviation} = \sqrt{\text{variance}} = \sqrt{\sigma^2} = \sigma = \sqrt{\displaystyle \frac{\sum_{i=1}^n (\mu-x_i)^2}{N}}$$
+
+## Standard deviation in a Sample
+
+$$\text{standard deviation} = \sqrt{\text{variance}} = \sqrt{s^2} = s = \sqrt{\displaystyle \frac{\sum_{i=1}^n (\bar{x}-x_i)^2}{n-1}}$$
+
+### Activities 
+
+1. Find the a value of body mass for which $30 \%$ of penguins are below that mass.
+
+```{r}
+
+```
+
+2. Find the a value of body mass for which $60 \%$ of penguins are above that mass.
+
+```{r}
+
+```
+
+
+3. Make a box plot for flipper length.
+
+```{r}
+
+```
+
+
+4. Make a boxplot for body mass where each island is separated into it's own boxplot.
+
+```{r}
+
+```
+
+
+5. How many penguins are in the study are not from Torgesen?
+
+
+6. How many penguins in the study have a flipper length less than $190$ and a body mass greater than $4700$?
