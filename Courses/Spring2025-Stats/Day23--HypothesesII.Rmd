@@ -1,0 +1,74 @@
+---
+title: "Dqy 23: Hypothesis Testing II"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Forming Hypotheses
+- How rare is rare enough
+
+---
+
+
+1. Suppose a baker claims that his cookie diameter is more than $10$ cm, on average. Several of his customers do not believe him. To persuade his customers that he is right, the baker decides to do a hypothesis test. He bakes $10$ cookies. The mean diameter of the sample is $12$ cm. The baker knows from baking hundreds of cookies that the standard deviation for the diameter is $0.5$ cm. and the distribution of diameters is normal. Perform a hypothesis test with a $5 \%$ significance level.
+
+$H_0=$ 
+
+$H_A=$ 
+
+
+```{r}
+
+```
+
+---
+
+2. Some people claim that they can tell the difference between a diet soda and a regular soda in the first sip. A researcher wanting to test this claim randomly sampled $80$ such people. He then filled $80$ plain white cups with soda, half diet and half regular through random assignment, and asked each person to take one sip from their cup and identify the soda as diet or regular. $53$ participants correctly identified the soda. Does this data provide strong evidence that people can tell the difference between regular and diet soda? (when a significance level is not specified use $\alpha=.05$).
+
+$H_0=$ 
+
+$H_A=$ 
+
+
+```{r}
+
+```
+
+---
+
+3. It is believed that $40 \%$ of people pass their driving test on the first attempt. Suppose you think the percentage is greater than $40 \%$. So, you perform a hypothesis test and sample $100$ people. Of the sampled people, $47$ reply that they passed on their first attempt. Set up a hypothesis test and make a conclusion with a $10 \%$ significance level.
+
+```{r}
+
+```
+
+
+4. A child is seeing how long they can hold their breathe under water. The child thinks they can hold their breathe for $150$ seconds on average. The child’s dad thinks it less than that. He samples his daughter holding her breathe eight times and the results are $144$, $152$, $138$, $144$, $136$, $162$, $158$, and $142$. Perform a hypothesis test (from the dads perspective) using a $5 \%$ level of significance. Does the data provide sufficient evidence to reject the null hypothesis?
+
+$H_0=$ 
+
+$H_A=$ 
+
+
+```{r}
+
+```
+
