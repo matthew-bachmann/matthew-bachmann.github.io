@@ -1,0 +1,68 @@
+---
+title: "Day24 - Type errors and Power"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+------------------------------------------------------------------------
+
+## Today's Agenda
+
+-   Type Errors
+
+------------------------------------------------------------------------
+
+## Decision Errors
+
+
+| |$H_0$ is True | $H_0$ is False |
+|:--|:--|:--|
+|Do not reject $H_0$ | Correct conclusion | Type II error
+|Reject $H_0$ | Type I error | Correct conclusion |
+
+------------------------------------------------------------------------
+
+#### A snack-food company produces a 454-g bag of pretzels. Although the actual net weights deviate slightly from $454$ g and vary from one bag to another, the company insists that the mean net weight of the bags be $454$ g. As part of its program, the quality assurance department periodically performs a hypothesis test to decide whether the packaging machine is working properly, that is, to decide whether the mean net weight of all bags packaged is $454$ g.
+
+$H_0: $
+
+$H_A: $
+
+Type I error:
+
+Type II error: 
+
+## Power 
+
+#### **Example:** The manufacturer of a new model car claims that a typical car gets 26 miles per gallon (mpg). A consumer advocacy group is skeptical of this claim and thinks that the mean gas mileage, $\mu$, of may be less than 26 mpg. The group plans to perform the hypothesis test
+
+$H_0: \mu = 26$ mpg
+
+$H_A: \mu < 26$ mpg
+
+#### at a $5 \%$ significance level using a sample of size 30. Find the probability of making a type II error is the true mean gas mileage is: 
+
+#### $25$ mpg
+
+#### $24.8$ mpg
+
+1. Cadmium, a heavy metal, is toxic to animals. Mushrooms, however, are able to absorb and accumulate cadmium at high concentrations. The Czech and Slovak governments have set a safety limit for cadmium in dry vegetables at $0.5$ part per million (ppm). A hypothesis test is to be performed to decide whether the mean cadmium level in mushrooms is greater than the government’s recommended limit. It is known that the population is normally distributed and has standard deviation $0.37$ ppm of cadmium. A sample of $12$ mushrooms has a mean cadmium level of $0.55$ ppm a significance level of $5 \%$. Does the data provide statistically significant evidence that the mean cadmium levels is higher than the goverment's recommend limit?
+
+2. If the true average is $0.8$ ppm, what is the power of the test at detecting this?
+
+
