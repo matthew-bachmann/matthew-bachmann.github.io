@@ -1,0 +1,150 @@
+---
+title: "Chi-Square"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+library(BSDA)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Fitting a distribution
+- chi-square independence
+
+---
+
+## Fitting a distribution
+
+- Often we have data that we expect will fit a certain distribution. 
+- We can use statistical tests to determine if the data really does fit that distribution
+
+#### Example: On a fair six sided die, each side is expected to be equally likely (uniform distribution). However, many die are constructed so that the numbers are marked by hollowed out pips. This should, in theory, cause the sides with more pips to be lighter than the sides with fewer pips. A person conjectures that the five and six should show up more often when rolling a six sided die since those sides are the lightest sides and the heavier sides should be on the bottom. Over many, many weeks, they roll a die $300,000$ times and record their results:
+
+
+| Outcome | Observed | Expected |
+|:--:|:--:|:--:|
+|$1$ | $50,611$ | $50,000$
+|$2$ | $49,523$ | $50,000$
+|$3$ | $49,812$ | $50,000$
+|$4$ | $49,924$ | $50,000$
+|$5$ | $49,672$ | $50,000$
+|$6$ | $50,458$ | $50,000$
+| Total: | $300,000$ | $300,000$
+
+
+
+$H_0$: 
+
+
+
+$H_A$: 
+
+
+
+
+$$ \displaystyle \chi^2 =  \sum \frac{ (\text{observed}- \text{expected})^2}{\text{expected}}$$
+
+| Outcome | Observed | Expected | $\sum \frac{ (\text{observed}- \text{expected})^2}{\text{expected}}$ |
+|:--:|:--:|:--:|:--:|
+|$1$ | $50,611$ | $50,000$ | $7.46642$
+|$2$ | $49,523$ | $50,000$ | $4.55058$
+|$3$ | $49,812$ | $50,000$ | $0.70688$
+|$4$ | $49,924$ | $50,000$ | $0.11552$
+|$5$ | $49,672$ | $50,000$ | $2.15168$
+|$6$ | $50,458$ | $50,000$ | $4.19528$
+| Total: | $300,000$ | $300,000$ | $19.18636$
+
+
+```{r}
+
+```
+
+---
+
+## How to tell if variables are independent
+
+**Example:** Students in grades 4-6 were asked whether good grades, athletic ability, or popularity was most important to them. A table separating the students by grade and by choice of most important factor is shown below. Do these data provide evidence to suggest that goals vary by grade?
+
+
+| | Grades | Popular | Sports | Total |
+|:--:|:--:|:--:|:--:|:--:|
+|$4^{th}$ | $63$ | $31$ | $25$ | $119$ |
+|$5^{th}$ | $88$ | $55$ | $33$ | $176$ |
+|$6^{th}$ | $96$ | $55$ | $32$ | $183$ |
+| Totals: | $247$ | $141$ | $90$ | $478$ | 
+
+
+
+$H_0:$  
+
+$H_A:$ 
+
+---
+
+To test this we again want to compute a chi-square statistic $\chi^2$:
+
+$$ \displaystyle \chi^2= \sum \frac{ (\text{observed}- \text{expected})^2}{\text{expected}}$$
+
+
+$$ \displaystyle \text{expected} =  \frac{ (\text{row total} \cdot \text{column total})}{\text{table total}}$$
+
+```{r}
+
+```
+
+### Calculating $\chi^2$
+
+
+```{r}
+
+```
+
+
+---
+
+
+## Class Activity
+
+1. A college is interested in the relationship between anxiety levels and pressure to succeed in school. A random sample of $400$ students responded in the following way:
+
+| Pressure to Succeed | High Anxiety | Medium-High Anxiety | Medium Anxiety | Medium-Low Anxiety | Low Anxiety | Total|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| High | $35$ | $42$ | $53$ | $15$ | $10$ | $155$ |
+| Medium | $18$ | $48$ | $63$ | $33$ | $31$ | $193$ |
+| Low | $4$ | $5$ | $11$ | $15$ | $17$ | $52$ |
+| Total | $57$ | $95$ | $127$ | $163$ | $158$ | $400$ |
+
+Is there sufficient evidence to conclude that a student's anxiety level depends on the pressure to succeed?
+
+$H_0:$  
+
+$H_A:$
+
+```{r}
+
+```
+
+2. Employers want to know which days of the week employees are absent in a five-day work week. Most employers would like to believe that employees are absent equally during the week. Suppose a random sample of $60$ managers were asked on which day of the week they had the highest number of employee absences. The results were distributed as:
+
+|  | Monday | Tuesday | Wednesday | Thursday | Friday | Total |  
+|:--:|:--:|:--:|:--:|:--:|
+| number of absences | 15 | 12 | 9 | 9 | 15 | 60 |
+
+Suppose there are $60$ absences in an average week. Test the goodness of fit of this data to a uniform distribution with a significance level of $.05$.
+
+
